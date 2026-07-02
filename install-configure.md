@@ -129,7 +129,15 @@ Windows users should use the following to auto-convert `CRLF` line endings into 
 git config --global core.autocrlf true
 ```
 
-7. Confirm your global settings were saved
+
+7. Use nano for merge messages
+
+```bash
+git config --global core.editor nano
+```
+
+
+9. Confirm your global settings were saved
 
 ```bash
 git config --list
