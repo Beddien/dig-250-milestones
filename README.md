@@ -123,7 +123,7 @@ Some folks use the CLI as their default tool for editing and publishing source c
 ### Setup
 
 1. In Github Desktop, ensure you are currently in the [learn-git-milestones](https://github.com/omundy/learn-git-milestones) repo you cloned above.
-1. Click Repository > Open in Terminal ("Bash" in Windows?)
+1. Click Repository > Open in Terminal ("Bash" in Windows) (You can change to preferred shell in Github Desktop > File > Options > Integrations)
 
 ### Use the CLI to navigate directories
 
