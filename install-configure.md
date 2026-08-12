@@ -1,9 +1,11 @@
-# Install & Configure Git 
+# Install & Configure Git
 
-Use the below instructions to install and configure Git on your computer. 
+Use the below instructions to install and configure Git on your computer.
 
+## Installation
 
-
+<details>
+<summary>Install Git on Windows</summary>
 
 ## Install Git on 🪟 Windows
 
@@ -11,15 +13,16 @@ Use the below instructions to install and configure Git on your computer.
 1. Run the installer. Use the default settings, making sure to install <a href="https://www.atlassian.com/git/tutorials/git-bash" target="_blank">Git BASH</a>
 1. Proceed to [Configure Git](#configure-git)
 
+</details>
 
+<details>
+<summary>Install Git on Mac</summary>
 
 ## Install Git on 🍏 Mac
 
 The <a href="https://brew.sh/" target="_blank">Homebrew</a> software package management system simplifies installing software on macOS.
 
-
-
-1. Copy and run this whole line to Install Homebrew. 
+1. Copy and run this whole line to Install Homebrew.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -33,7 +36,7 @@ The <a href="https://brew.sh/" target="_blank">Homebrew</a> software package man
 brew --version
 ```
 
-3. Then install git using Homebrew 
+3. Then install git using Homebrew
 
 ```bash
 brew install git
@@ -41,8 +44,10 @@ brew install git
 
 4. Proceed to [Configure Git](#configure-git)
 
+</details>
 
-
+<details>
+<summary>Install Git on Linux</summary>
 
 ## Install Git on 🐧 Linux
 
@@ -56,17 +61,9 @@ sudo apt upgrade
 sudo apt install git
 ```
 
-
-
-
-
-
-
-
-
+</details>
 
 ## Configure Git
-
 
 ### Essentials
 
@@ -77,19 +74,14 @@ git --version
 # -> git version 2.38.1
 ```
 
-
-
 2. Add your name and email
 
-Replace the below with ***Your Name*** (inside the quotes) and email (no quotes) one line at a time. Press return after each line
+Replace the below with **_Your Name_** (inside the quotes) and email (no quotes) one line at a time. Press return after each line
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email youraddress@example.com
 ```
-
-
-
 
 3. Set the [default branch to main](https://www.zdnet.com/article/github-to-replace-master-with-alternative-term-to-avoid-slavery-references/)
 
@@ -97,11 +89,7 @@ git config --global user.email youraddress@example.com
 git config --global init.defaultBranch main
 ```
 
-
-
-
 ### Other Recommended Settings
-
 
 4. Set pull to merge ([recommended](https://stackoverflow.com/a/36587353/441878) over rebase for new users)
 
@@ -113,11 +101,9 @@ git config --global pull.rebase false
 <summary><i>Why merge over rebase?</i></summary>
 
 > Merging is nice because it’s a non-destructive operation. The existing branches are not changed in any way. This avoids all of the potential pitfalls of rebasing. [...] On the other hand, this also means that the feature branch will have an extraneous merge commit every time you need to incorporate upstream changes
-https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+> https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 </details>
-
-
 
 5. Mac or Linux should [convert line endings](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) to `LF` (see also [Configuring Git to handle line endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings))
 
@@ -131,13 +117,11 @@ Windows users should use the following to auto-convert `CRLF` line endings into 
 git config --global core.autocrlf true
 ```
 
-
 6. Use nano for merge messages
 
 ```bash
 git config --global core.editor nano
 ```
-
 
 7. Confirm your global settings were saved
 
@@ -145,19 +129,18 @@ git config --global core.editor nano
 git config --list
 ```
 
-
 <details>
 <summary>Other Git configuration tips</summary>
 
 <h2>Other tips</h2>
 
-- [View settings and location of other config files](https://stackoverflow.com/a/46986031/441878) (system, global, local)
+[View settings and location of other config files](https://stackoverflow.com/a/46986031/441878) (system, global, local)
 
 ```bash
 git config --list --show-origin
 ```
 
-- Display the contents of the configuration file
+Display the contents of the configuration file
 
 ```bash
 cat ~/.gitconfig
@@ -165,17 +148,8 @@ cat ~/.gitconfig
 
 </details>
 
-
-
-
-
-
-
-
-
-
 ## References
 
-- [First-Time Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup) 
+- [First-Time Git Setup](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
 - [Installing Git – the easy way](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 - [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
