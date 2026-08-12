@@ -1,11 +1,11 @@
-# Install Git 
+# Install & Configure Git 
 
 Use the below instructions to install and configure Git on your computer. 
 
 
 
 
-## Install Git on Windows
+## Install Git on 🪟 Windows
 
 1. Download the installer at <a href="https://gitforwindows.org/" target="_blank">gitforwindows.org</a>
 1. Run the installer. Use the default settings, making sure to install <a href="https://www.atlassian.com/git/tutorials/git-bash" target="_blank">Git BASH</a>
@@ -13,9 +13,9 @@ Use the below instructions to install and configure Git on your computer.
 
 
 
-## Install Git on Mac
+## Install Git on 🍏 Mac
 
-<a href="https://brew.sh/" target="_blank">Homebrew</a> is a software package management system that simplifies the installation of software on macOS
+The <a href="https://brew.sh/" target="_blank">Homebrew</a> software package management system simplifies installing software on macOS.
 
 
 
@@ -44,7 +44,7 @@ brew install git
 
 
 
-## Install Git on Linux
+## Install Git on 🐧 Linux
 
 > Most Linux systems – including Ubuntu and Raspberry Pi OS – are Debian-based.
 
@@ -67,6 +67,9 @@ sudo apt install git
 
 ## Configure Git
 
+
+### Essentials
+
 1. Verify Git is installed by outputing the current version.
 
 ```bash
@@ -76,24 +79,19 @@ git --version
 
 
 
-2. Add your name
+2. Add your name and email
 
-> Replace ***Your Name*** (inside the quotes). Press return after each line
+Replace the below with ***Your Name*** (inside the quotes) and email (no quotes) one line at a time. Press return after each line
 
 ```bash
 git config --global user.name "Your Name"
-```
-
-3. Add your email
-
-```bash
 git config --global user.email youraddress@example.com
 ```
 
 
 
 
-4. Set the [default branch to main](https://www.zdnet.com/article/github-to-replace-master-with-alternative-term-to-avoid-slavery-references/)
+3. Set the [default branch to main](https://www.zdnet.com/article/github-to-replace-master-with-alternative-term-to-avoid-slavery-references/)
 
 ```bash
 git config --global init.defaultBranch main
@@ -101,14 +99,18 @@ git config --global init.defaultBranch main
 
 
 
-5. Set pull to merge ([recommended](https://stackoverflow.com/a/36587353/441878) over rebase for new users)
+
+### Other Recommended Settings
+
+
+4. Set pull to merge ([recommended](https://stackoverflow.com/a/36587353/441878) over rebase for new users)
 
 ```bash
 git config --global pull.rebase false
 ```
 
 <details>
-<summary>Merge vs. Rebase</summary>
+<summary><i>Why merge over rebase?</i></summary>
 
 > Merging is nice because it’s a non-destructive operation. The existing branches are not changed in any way. This avoids all of the potential pitfalls of rebasing. [...] On the other hand, this also means that the feature branch will have an extraneous merge commit every time you need to incorporate upstream changes
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing
@@ -117,7 +119,7 @@ https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 
 
 
-6. Mac or Linux should [convert line endings](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) to `LF` (see also [Configuring Git to handle line endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings))
+5. Mac or Linux should [convert line endings](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) to `LF` (see also [Configuring Git to handle line endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings))
 
 ```bash
 git config --global core.autocrlf input
@@ -130,14 +132,14 @@ git config --global core.autocrlf true
 ```
 
 
-7. Use nano for merge messages
+6. Use nano for merge messages
 
 ```bash
 git config --global core.editor nano
 ```
 
 
-9. Confirm your global settings were saved
+7. Confirm your global settings were saved
 
 ```bash
 git config --list
