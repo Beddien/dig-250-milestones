@@ -7,6 +7,8 @@
 
 Forking, branching, pull requests
 
+Also see: [PART 1 - Git Basics](README.md)
+
 
 
 
@@ -71,11 +73,11 @@ Forking, branching, pull requests
 
 ## Completions (pt.2)
 
-Row | Step | Description | Completed
---- | --- | --- | ---
-11 | 8-1 | What is in Owen's dev branch? | 
-12 | 9-1 | Link to your new branch on github.com | 
-13 | 10-1 | Link to your network graph | 
-14 | 11-1 | Link to the PR you made on a partner's github.com repo | 
+Step | Description | Completed
+--- | --- | ---
+8-1 | What is in Owen's dev branch? | 
+9-1 | Link to your new branch on github.com | 
+10-1 | Link to your network graph | 
+11-1 | Link to the PR you made on a partner's github.com repo | 
 
 

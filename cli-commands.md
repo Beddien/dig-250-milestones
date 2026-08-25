@@ -6,7 +6,7 @@
 
 ## Install Git
 
-1. See [Install Git](./README.md#1-install-git) in README
+1. See [Install Git](./how-to/install-configure.md#installation)
 
 
 
@@ -14,7 +14,7 @@
 ## Configure Git
 
 
-1. See [Configure Git](./README.md#2-configure-git) in README
+1. See [Configure Git](./how-to/install-configure.md#configure-git)
 
 
 

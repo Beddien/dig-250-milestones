@@ -107,7 +107,7 @@ git clone git@github.com:username/repo-name.git
 ```bash
 git remote -v
 ```
-3. Set your name and email on this device too (see [Install & Configure Git](install-configure.md))
+3. Set your name and email on this device too (see [Install & Configure Git](how-to/install-configure.md))
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email youraddress@example.com
