@@ -227,13 +227,13 @@ Step | Description | Completed
 2-1 | 1st Favorite emoji | 📮
 2-2 | https://github.com/Beddien/eagles.github.io/commit/cf39c29b26d2efa07eaf5c2e41b8a577b2dc38b4 |
 2-3 | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables |
-2-4 | What does `log` do? |
+2-4 | Returns the most recent commit's message/title |
 3-1 | 2nd Favorite emoji | ☠️
-3-2 | Link to `commit #2 from Github Desktop` |
-4-1 | Full path to your working directory |
-4-2 | Link to `commit #3 from CLI` |
-5-1 | Link to `first-website` github.com repo page |
-6-1 | Link to `first-website` github.io "project site" |
+3-2 | https://github.com/Beddien/eagles.github.io/commit/ae49c7f55be4c3183d28ea1e1bcc86cc08ddda27 |
+4-1 | /home/DAVIDSON/wireddien/WReddien |
+4-2 | https://github.com/Beddien/eagles.github.io/commit/bcde351ae09ef1788623fde276afa81ba9e97965 |
+5-1 | https://github.com/Beddien/eagles.github.io |
+6-1 | https://beddien.github.io/eagles.github.io/ |
 
 
 
