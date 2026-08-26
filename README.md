@@ -224,11 +224,11 @@ Now that we have basic Git commands out of the way use Git to create and turn in
 
 Step | Description | Completed
 --- | --- | ---
-2-1 | 1st Favorite emoji | ADD_TEXT_HERE
-2-2 | Link to `commit #1 from Github.com` |
-2-3 | Link to markdown tables docs |
+2-1 | 1st Favorite emoji | 📮
+2-2 | https://github.com/Beddien/eagles.github.io/commit/cf39c29b26d2efa07eaf5c2e41b8a577b2dc38b4 |
+2-3 | https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables |
 2-4 | What does `log` do? |
-3-1 | 2nd Favorite emoji |
+3-1 | 2nd Favorite emoji | ☠️
 3-2 | Link to `commit #2 from Github Desktop` |
 4-1 | Full path to your working directory |
 4-2 | Link to `commit #3 from CLI` |
